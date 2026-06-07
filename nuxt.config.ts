@@ -3,6 +3,14 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineNuxtConfig({
   compatibilityDate: "2025-11-07",
   devtools: { enabled: true },
+  app: {
+    head: {
+      title: 'Nuxt 4 Shopify Starter',
+      link: [
+        { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },
+      ],
+    },
+  },
   runtimeConfig: {
     public: {
       shopifyDomain: process.env.SHOPIFY_DOMAIN || '',
