@@ -23,6 +23,7 @@ cp .env.example .env
 ```
 
 You'll need:
+
 - **SHOPIFY_DOMAIN** — your myshopify.com domain, e.g. `my-store.myshopify.com`
 - **SHOPIFY_TOKEN** — a [Storefront API access token](https://shopify.dev/docs/storefront-api/getting-started#access-tokens). You can create one in your Shopify admin under Settings → Apps and sales channels → Develop apps.
 - **SITE_URL** — your public URL (used to bring customers back after checkout)
@@ -88,3 +89,7 @@ Visit `/` to see your products.
 - Node.js 18+
 - A Shopify store with the Storefront API enabled
 - A Storefront API access token
+
+## Author
+
+Built by [Ben O'Connor](https://www.benoconnor.co.uk) — web developer and designer based in Scarborough, UK.
